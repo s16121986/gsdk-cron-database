@@ -1,0 +1,31 @@
+{
+  "name": "gsdk/cron-database",
+  "type": "library",
+  "description": "Add cron database functionally",
+  "version": "1.0.0",
+  "keywords": [
+	"gsdk",
+	"laravel",
+	"cron"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Sergey Guryanov",
+	  "email": "s16121986@yandex.ru"
+	}
+  ],
+  "require": {
+	"php": ">=8.0.2"
+  },
+  "require-dev": {
+  },
+  "conflict": {
+  },
+  "autoload": {
+	"psr-4": {
+	  "Gsdk\\CronDatabase\\": ""
+	}
+  },
+  "minimum-stability": "dev"
+}
